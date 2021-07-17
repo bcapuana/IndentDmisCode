@@ -48,11 +48,14 @@ namespace IndentDmisCode
         {
             "IF/",
             "MEAS/",
+            "RMEAS/",
             "DO/",
             "$$<",
             "DMISMD/",
             "DMISMN/",
-            "M("
+            "M(",
+            "SELECT/",
+            "CASE/"
         };
 
         /// <summary>
@@ -66,7 +69,10 @@ namespace IndentDmisCode
             "$$<\\",
             "ENDFIL",
             "ENDMAC",
-            "ENDMES"
+            "ENDMES",
+            "ENDCAS",
+            "ENDSEL"
+
         };
 
 
